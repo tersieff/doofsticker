@@ -7,7 +7,7 @@
 		"uuidString": "CAA0CDD3-C82F-484E-8009-D8FC1B009A0C"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
 	"/.nova/Configuration.json": {
 		"ft": 524288,
@@ -245,6 +245,14 @@
 		"oAP": "/home.html",
 		"oF": 2
 		},
+	"/assets/html/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 2
+		},
 	"/assets/js/jquery-slim.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -269,6 +277,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/car.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/car_garage.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/car_garage.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -304,6 +322,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/clouds-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/clouds-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/clouds-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/clouds-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/clouds.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -324,17 +362,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/images/mt-shuksan.png": {
-		"ft": 32768,
-		"iS": 30947,
-		"oA": 0,
-		"oAP": "/images/mt-shuksan.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/shuksan.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -345,16 +372,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/images/windshield.png": {
-		"ft": 32768,
-		"iS": 5256,
-		"oA": 0,
-		"oAP": "/images/windshield.png",
+	"/images/signs-light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/signs-light.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/signs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/signs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/windshield.svg": {
 		"ft": 2097152,
@@ -386,6 +422,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/write-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/write-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/write.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -395,6 +441,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/index-bak.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index-bak.html",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -973,6 +1027,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -1385,6 +1443,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -1500,6 +1562,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -1644,6 +1710,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
