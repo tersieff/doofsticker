@@ -277,6 +277,14 @@
 		"oAP": "/sent.html",
 		"oF": 2
 		},
+	"/assets/html/success.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/success.html",
+		"oF": 2
+		},
 	"/assets/js/jquery-slim.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -488,6 +496,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/privacy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/privacy.html",
 		"oF": 0
 		},
 	"/README.md": {
