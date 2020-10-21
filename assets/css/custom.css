@@ -70,7 +70,7 @@ body {
 	width: 100%;
 	height: 100%;
 	
-        animation: backgroundScroll 1000s linear infinite;
+        animation: backgroundScroll 1500s linear infinite;
 
 /*-webkit-animation: backgroundScroll 800000s linear infinite;
    -moz-animation: backgroundScroll 800000s linear infinite;
