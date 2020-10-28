@@ -245,14 +245,6 @@
 		"oAP": "/contact.html",
 		"oF": 2
 		},
-	"/assets/html/home.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/home.html",
-		"oF": 2
-		},
 	"/assets/html/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -531,6 +523,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/sent.html",
+		"oF": 0
+		},
+	"/success.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/success.html",
 		"oF": 0
 		}
 	},
