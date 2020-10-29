@@ -490,6 +490,14 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/netlify.toml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/netlify.toml",
+		"oF": 0
+		},
 	"/privacy.html": {
 		"cB": 0,
 		"ft": 8192,
