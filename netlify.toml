@@ -1,6 +1,11 @@
+# .toml file can handle all the customizations to the Netlify build. Below I'm using it for setting up the sitmap plugin installed on Netlify. You can also setup redirects or other things. Instructions on using the .toml file: https://docs.netlify.com/configure-builds/file-based-configuration/
+
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   buildDir = "."
-  
+  exclude = [
+    './sent.html',
+    './success.html',
+  ]
