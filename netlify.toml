@@ -6,6 +6,6 @@ package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   buildDir = "."
   exclude = [
-    './sent.html',
-    './success.html',
+    './opt/build/repo/sent.html',
+    './opt/build/repo/success.html'
   ]
