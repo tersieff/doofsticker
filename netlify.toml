@@ -5,5 +5,5 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   buildDir = "."
-  prettyURLs = true
+  prettyURLs = false
   
