@@ -277,6 +277,14 @@
 		"oAP": "/success.html",
 		"oF": 2
 		},
+	"/assets/html/wholesale.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/wholesale.html",
+		"oF": 2
+		},
 	"/assets/js/jquery-slim.min.js": {
 		"bF": 0,
 		"ft": 64,
